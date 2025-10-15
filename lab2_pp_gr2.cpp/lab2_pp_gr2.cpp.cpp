@@ -2,8 +2,30 @@
 #include <iostream>
 using namespace std;
 int main(){
+	int w;
+	int a, b;
+	cout << "Podaj a i b " << endl;
+	cin >> a >> b;
+
 	
-	int n;
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	/*int n;
 	cout << "Podaj liczbe n: " << endl;
 	cin >> n;
 	int a;
@@ -14,8 +36,6 @@ int main(){
 			a = a + 1;
 		}
 	}
-	cout << a;
-	
-	
+	cout << a;*/
 	
 }
