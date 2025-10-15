@@ -1,12 +1,18 @@
-#include <stdio.h> //kod 02_13
+ 
+#include <iostream>
 using namespace std;
 int main() {
     int fahr; //zmienne typu int 
     int start, limit, krok; //zmienne typu int 
 
     start = 0; //przypisz 0 do start 
-    limit = 200; //przypisz 200 do limit 
-    krok = 20; //przypisz 20 do krok 
+   // limit = 200; przypisz 200 do limit 
+   // krok = 20; przypisz 20 do krok 
+    cout << "Podaj wartosc limit: " << endl;
+    cin >> limit >> endl;
+    cout << "Podaj wartosc krok: " << endl;
+    cin >> krok >> endl;
+
 
     fahr = start; //przypisz wartosc start do zmiennej fahr, czyli fahr = 0
 
