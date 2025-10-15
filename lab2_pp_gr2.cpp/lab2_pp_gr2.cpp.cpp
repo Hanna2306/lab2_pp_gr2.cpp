@@ -1,10 +1,28 @@
-#include <iostream>
+#include <stdio.h> //kod 02_13
 using namespace std;
-int main() { //kod 02_12
-	for (int i = 10; i >=0; i--) {
-		cout << i << endl;
-		
-	} 
+int main() {
+    int fahr; //zmienne typu int 
+    int start, limit, krok; //zmienne typu int 
+
+    start = 0; //przypisz 0 do start 
+    limit = 200; //przypisz 200 do limit 
+    krok = 20; //przypisz 20 do krok 
+
+    fahr = start; //przypisz wartosc start do zmiennej fahr, czyli fahr = 0
+
+    for (fahr = 0.0; fahr <= limit; fahr = fahr + krok);  //kod 02_14
+    {
+        float celsius = (5.0 / 9.0) * (fahr - 32.0);
+        printf("%3.0f \t %6.1f \n", fahr, celsius); // zamienione z while na for
+    }
+   
+   
+
+    /*while (fahr <= limit) { //wykonuj petle dopoki wartosc fahr jest <= od zmiennej limit 
+        celsius = 5 * (fahr - 32) / 9; //oblicz stopnie C i przypisz wynik do celsius 
+        cout << fahr << "\t" << celsius << endl; //wypisz zmienne na ekran
+        fahr = fahr + krok; //zwieksz wartosc zmiennej fahr o wartosc zmiennej krok*/
+    }
+
 	 
-return 0;	
-}
+	
