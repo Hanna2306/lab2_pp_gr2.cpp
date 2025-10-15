@@ -7,7 +7,7 @@ int main() {
 		cout << "Podaj liczbê rzeczywist¹: " << endl;
 		cin >> x[i];
 			if (x[i] > 0) {
-			cout << x[i] << endl;}
+			cout << x[i] << endl; }
 
 	}
 }
