@@ -10,11 +10,15 @@ int main() {
 
     fahr = start; //przypisz wartosc start do zmiennej fahr, czyli fahr = 0
 
-    for (fahr = 0.0; fahr <= limit; fahr = fahr + krok);  //kod 02_14
-    {
-        float celsius = (5.0 / 9.0) * (fahr - 32.0);
-        printf("%3.0f \t %6.1f \n", fahr, celsius); // zamienione z while na for
-    }
+    
+    
+        for (fahr = 0.0; fahr <= limit; fahr = fahr + krok)
+          {
+          
+            float celsius = (5/9)*(fahr - 32.0); // przy zmianie z 5.0/9.0 przestajemy otzrymywaæ logiczne wyniki
+            printf("%3.0f %6.1f \n", fahr, celsius);
+          }
+    
    
    
 
